@@ -1,0 +1,232 @@
+Determining if the function crc32c_value exists in the crc32c failed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e3787/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e3787.dir/build.make CMakeFiles/cmTC_e3787.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3787.dir/CheckFunctionExists.c.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc   -DCHECK_FUNCTION_EXISTS=crc32c_value   -std=c11 -o CMakeFiles/cmTC_e3787.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e3787
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3787.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc  -DCHECK_FUNCTION_EXISTS=crc32c_value  -L/usr/local/lib  CMakeFiles/cmTC_e3787.dir/CheckFunctionExists.c.o  -o cmTC_e3787 -lcrc32c 
+/usr/bin/ld: cannot find -lcrc32c
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_e3787] Error 1
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_e3787/fast] Error 2
+
+
+Determining if the function malloc exists in the tcmalloc failed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c1fd2/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c1fd2.dir/build.make CMakeFiles/cmTC_c1fd2.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1fd2.dir/CheckFunctionExists.c.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc   -DCHECK_FUNCTION_EXISTS=malloc   -std=c11 -o CMakeFiles/cmTC_c1fd2.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function 'malloc'; expected 'void *(long unsigned int)' [-Wbuiltin-declaration-mismatch]
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:1:1: note: 'malloc' is declared in header '<stdlib.h>'
+  +++ |+#include <stdlib.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_c1fd2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1fd2.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc  -DCHECK_FUNCTION_EXISTS=malloc  -L/usr/local/lib  CMakeFiles/cmTC_c1fd2.dir/CheckFunctionExists.c.o  -o cmTC_c1fd2 -ltcmalloc 
+/usr/bin/ld: cannot find -ltcmalloc
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_c1fd2] Error 1
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_c1fd2/fast] Error 2
+
+
+Determining if the F_FULLFSYNC exist failed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_41014/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_41014.dir/build.make CMakeFiles/cmTC_41014.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_41014.dir/CheckSymbolExists.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -std=c++11 -o CMakeFiles/cmTC_41014.dir/CheckSymbolExists.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: 'F_FULLFSYNC' was not declared in this scope
+    8 |   return ((int*)(&F_FULLFSYNC))[argc];
+      |                   ^~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_41014.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_41014/fast] Error 2
+
+File /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_FULLFSYNC
+  return ((int*)(&F_FULLFSYNC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_THREAD_SAFETY failed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_947d7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_947d7.dir/build.make CMakeFiles/cmTC_947d7.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_947d7.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti -DHAVE_CLANG_THREAD_SAFETY   -Wthread-safety -std=c++11 -o CMakeFiles/cmTC_947d7.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+g++: error: unrecognized command line option '-Wthread-safety'
+gmake[1]: *** [CMakeFiles/cmTC_947d7.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_947d7/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e55ff/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e55ff.dir/build.make CMakeFiles/cmTC_e55ff.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e55ff.dir/CheckSymbolExists.c.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc   -Wstrict-prototypes    -std=c11 -o CMakeFiles/cmTC_e55ff.dir/CheckSymbolExists.c.o   -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e55ff
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e55ff.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc  -Wstrict-prototypes   -L/usr/local/lib  CMakeFiles/cmTC_e55ff.dir/CheckSymbolExists.c.o  -o cmTC_e55ff 
+CMakeFiles/cmTC_e55ff.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_e55ff] Error 1
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_e55ff/fast] Error 2
+
+File /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_72d45/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_72d45.dir/build.make CMakeFiles/cmTC_72d45.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72d45.dir/CheckFunctionExists.c.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create   -std=c11 -o CMakeFiles/cmTC_72d45.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_72d45
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72d45.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create  -L/usr/local/lib  CMakeFiles/cmTC_72d45.dir/CheckFunctionExists.c.o  -o cmTC_72d45 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_72d45] Error 1
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_72d45/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7f1ca/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7f1ca.dir/build.make CMakeFiles/cmTC_7f1ca.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7f1ca.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wshorten-64-to-32   -Wshorten-64-to-32 -o CMakeFiles/cmTC_7f1ca.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+g++: error: unrecognized command line option '-Wshorten-64-to-32'
+g++: error: unrecognized command line option '-Wshorten-64-to-32'
+gmake[1]: *** [CMakeFiles/cmTC_7f1ca.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_7f1ca/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4f8bf/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4f8bf.dir/build.make CMakeFiles/cmTC_4f8bf.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4f8bf.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -wd654   -wd654 -o CMakeFiles/cmTC_4f8bf.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+g++: error: unrecognized command line option '-wd654'
+g++: error: unrecognized command line option '-wd654'
+gmake[1]: *** [CMakeFiles/cmTC_4f8bf.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_4f8bf/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_76fd3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_76fd3.dir/build.make CMakeFiles/cmTC_76fd3.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_76fd3.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wthread-safety   -Wthread-safety -o CMakeFiles/cmTC_76fd3.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+g++: error: unrecognized command line option '-Wthread-safety'
+g++: error: unrecognized command line option '-Wthread-safety'
+gmake[1]: *** [CMakeFiles/cmTC_76fd3.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_76fd3/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the function sqlite3_open exists in the sqlite3 failed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a4499/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a4499.dir/build.make CMakeFiles/cmTC_a4499.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4499.dir/CheckFunctionExists.c.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=sqlite3_open   -o CMakeFiles/cmTC_a4499.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a4499
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4499.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=sqlite3_open  -L/usr/local/lib  CMakeFiles/cmTC_a4499.dir/CheckFunctionExists.c.o  -o cmTC_a4499 -lsqlite3 
+/usr/bin/ld: cannot find -lsqlite3
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_a4499] Error 1
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_a4499/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test HAVE_KYOTOCABINET failed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_2652d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2652d.dir/build.make CMakeFiles/cmTC_2652d.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2652d.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti -DHAVE_KYOTOCABINET   -o CMakeFiles/cmTC_2652d.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: kcpolydb.h: No such file or directory
+    2 | #include <kcpolydb.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_2652d.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_2652d/fast] Error 2
+
+Source file was:
+
+#include <kcpolydb.h>
+
+int main() {
+  kyotocabinet::TreeDB* db = new kyotocabinet::TreeDB();
+  delete db;
+  return 0;
+}
+  

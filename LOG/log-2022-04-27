@@ -1,0 +1,36 @@
+  函数调用关系：自下而上
+  db_impl.cc:726
+  void DBImpl::BackgroundCall()
+
+  db_impl.cc:714 
+  void DBImpl::BGWork(void* db) {
+  reinterpret_cast<DBImpl*>(db)->BackgroundCall();
+}
+
+  env_posix.cc:842
+  void PosixEnv::BackgroundThreadMain() {}
+
+  static void BackgroundThreadEntryPoint(PosixEnv* env) {
+    env->BackgroundThreadMain();
+  }
+
+
+:821
+void PosixEnv::Schedule(
+    void (*background_work_function)(void* background_work_arg),
+    void* background_work_arg)
+
+db_impl中定义:
+  Env* const env_;
+
+db_bench:1095
+  leveldb::g_env = leveldb::Env::Default();
+
+
+leveldb初始化过程：
+db_bench调用Options并赋值
+Options传入各个其他class(如 DBImpl),为其中的部分变量赋值；
+  注：Env *env的赋值过程；同理 Thread_gc *gc也可以如此
+
+DBImpl.cc: 721行
+新写一个BackgroundCall()

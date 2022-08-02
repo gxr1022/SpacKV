@@ -1,0 +1,11 @@
+readrandom falut!
+VTable.cc:22  getvalue()
+#0  leveldb::VTable::Getvalue (this=0x7ffff0000d90, offset=0x7ffff0000db0, Value=0x7ffff4c1ecb0)
+    at /home/gxr/KVseparation/leveldb-edit/nvm_mod/VTable.cc:24
+#1  0x0000000000410b58 in leveldb::DBImpl::Get (this=0x689600, options=..., key=..., value=0x7ffff4c1ecb0)
+    at /home/gxr/KVseparation/leveldb-edit/db/db_impl.cc:1281
+#2  0x0000000000409707 in leveldb::Benchmark::ReadRandom (this=0x7ffffffd90d0, thread=0x618de30)
+    at /home/gxr/KVseparation/leveldb-edit/benchmarks/db_bench.cc:878
+#3  0x000000000040834e in leveldb::Benchmark::ThreadBody (v=0x68ab80)
+    at /home/gxr/KVseparation/leveldb-edit/benchmarks/db_bench.cc:651
+#4  0x0000000000448010 in std::__invoke_impl<void, void (*)(void*), void*> (

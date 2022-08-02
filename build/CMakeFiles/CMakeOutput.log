@@ -1,0 +1,932 @@
+The system is: Linux - 3.10.0-957.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/3.9.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/3.9.0/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_34095/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_34095.dir/build.make CMakeFiles/cmTC_34095.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34095.dir/testCCompiler.c.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc    -o CMakeFiles/cmTC_34095.dir/testCCompiler.c.o   -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_34095
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34095.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc    -L/usr/local/lib  CMakeFiles/cmTC_34095.dir/testCCompiler.c.o  -o cmTC_34095 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_2633e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2633e.dir/build.make CMakeFiles/cmTC_2633e.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2633e.dir/CMakeCCompilerABI.c.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc    -o CMakeFiles/cmTC_2633e.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2633e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2633e.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc    -L/usr/local/lib -v CMakeFiles/cmTC_2633e.dir/CMakeCCompilerABI.c.o  -o cmTC_2633e 
+Reading specs from /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/specs
+COLLECT_GCC=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc
+COLLECT_LTO_WRAPPER=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /tmp/wyf/spack-stage/spack-stage-gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/spack-src/configure --prefix=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c,c++,fortran --disable-nls --disable-canonical-system-headers --with-system-zlib --enable-bootstrap --with-mpfr-include=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpfr-3.1.6-cp33qthd3iovcmg7oljt56i27bfaezas/include --with-mpfr-lib=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpfr-3.1.6-cp33qthd3iovcmg7oljt56i27bfaezas/lib --with-gmp-include=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gmp-6.2.1-jkhmbcioik6xi7gnqerfzopxgtxp5ljx/include --with-gmp-lib=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gmp-6.2.1-jkhmbcioik6xi7gnqerfzopxgtxp5ljx/lib --with-mpc-include=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpc-1.1.0-cpfajcxjwfsvou2a36wdv7ivkdzsqhgp/include --with-mpc-lib=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpc-1.1.0-cpfajcxjwfsvou2a36wdv7ivkdzsqhgp/lib --without-isl --with-stage1-ldflags='-Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib64 -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gmp-6.2.1-jkhmbcioik6xi7gnqerfzopxgtxp5ljx/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpc-1.1.0-cpfajcxjwfsvou2a36wdv7ivkdzsqhgp/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpfr-3.1.6-cp33qthd3iovcmg7oljt56i27bfaezas/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/zlib-1.2.12-65l5spnllm3b354wqtrlqb7ohin6dyqu/lib' --with-boot-ldflags='-Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib64 -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gmp-6.2.1-jkhmbcioik6xi7gnqerfzopxgtxp5ljx/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpc-1.1.0-cpfajcxjwfsvou2a36wdv7ivkdzsqhgp/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpfr-3.1.6-cp33qthd3iovcmg7oljt56i27bfaezas/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/zlib-1.2.12-65l5spnllm3b354wqtrlqb7ohin6dyqu/lib -static-libstdc++ -static-libgcc'
+Thread model: posix
+gcc version 9.4.0 (Spack GCC) 
+COMPILER_PATH=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-L/usr/local/lib' '-v' '-o' 'cmTC_2633e' '-mtune=generic' '-march=x86-64'
+ /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/collect2 -plugin /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccusNfuk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2633e /lib/../lib64/crt1.o /lib/../lib64/crti.o /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o -L/usr/local/lib -rpath /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib64 -L/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0 -L/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../.. CMakeFiles/cmTC_2633e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-L/usr/local/lib' '-v' '-o' 'cmTC_2633e' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_2633e/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_2633e.dir/build.make CMakeFiles/cmTC_2633e.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_2633e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc    -o CMakeFiles/cmTC_2633e.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_2633e]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2633e.dir/link.txt --verbose=1]
+  ignore line: [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc    -L/usr/local/lib -v CMakeFiles/cmTC_2633e.dir/CMakeCCompilerABI.c.o  -o cmTC_2633e ]
+  ignore line: [Reading specs from /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/specs]
+  ignore line: [COLLECT_GCC=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /tmp/wyf/spack-stage/spack-stage-gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/spack-src/configure --prefix=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c,c++,fortran --disable-nls --disable-canonical-system-headers --with-system-zlib --enable-bootstrap --with-mpfr-include=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpfr-3.1.6-cp33qthd3iovcmg7oljt56i27bfaezas/include --with-mpfr-lib=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpfr-3.1.6-cp33qthd3iovcmg7oljt56i27bfaezas/lib --with-gmp-include=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gmp-6.2.1-jkhmbcioik6xi7gnqerfzopxgtxp5ljx/include --with-gmp-lib=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gmp-6.2.1-jkhmbcioik6xi7gnqerfzopxgtxp5ljx/lib --with-mpc-include=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpc-1.1.0-cpfajcxjwfsvou2a36wdv7ivkdzsqhgp/include --with-mpc-lib=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpc-1.1.0-cpfajcxjwfsvou2a36wdv7ivkdzsqhgp/lib --without-isl --with-stage1-ldflags='-Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib64 -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gmp-6.2.1-jkhmbcioik6xi7gnqerfzopxgtxp5ljx/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpc-1.1.0-cpfajcxjwfsvou2a36wdv7ivkdzsqhgp/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpfr-3.1.6-cp33qthd3iovcmg7oljt56i27bfaezas/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/zlib-1.2.12-65l5spnllm3b354wqtrlqb7ohin6dyqu/lib' --with-boot-ldflags='-Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib64 -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gmp-6.2.1-jkhmbcioik6xi7gnqerfzopxgtxp5ljx/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpc-1.1.0-cpfajcxjwfsvou2a36wdv7ivkdzsqhgp/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpfr-3.1.6-cp33qthd3iovcmg7oljt56i27bfaezas/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/zlib-1.2.12-65l5spnllm3b354wqtrlqb7ohin6dyqu/lib -static-libstdc++ -static-libgcc']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Spack GCC) ]
+  ignore line: [COMPILER_PATH=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-L/usr/local/lib' '-v' '-o' 'cmTC_2633e' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/collect2 -plugin /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccusNfuk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2633e /lib/../lib64/crt1.o /lib/../lib64/crti.o /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o -L/usr/local/lib -rpath /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib64 -L/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0 -L/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../.. CMakeFiles/cmTC_2633e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccusNfuk.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2633e] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+    arg [-rpath] ==> ignore
+    arg [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib64] ==> ignore
+    arg [-L/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0] ==> dir [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0]
+    arg [-L/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64] ==> dir [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../..] ==> dir [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../..]
+    arg [CMakeFiles/cmTC_2633e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0] ==> [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0]
+  collapse library dir [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64] ==> [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../..] ==> [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/local/lib;/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0;/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib64;/lib64;/usr/lib64;/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_2d118/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2d118.dir/build.make CMakeFiles/cmTC_2d118.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d118.dir/feature_tests.c.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc   -std=c11 -o CMakeFiles/cmTC_2d118.dir/feature_tests.c.o   -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2d118
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d118.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc    -L/usr/local/lib  CMakeFiles/cmTC_2d118.dir/feature_tests.c.o  -o cmTC_2d118 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ef722/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ef722.dir/build.make CMakeFiles/cmTC_ef722.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef722.dir/feature_tests.c.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc   -std=c99 -o CMakeFiles/cmTC_ef722.dir/feature_tests.c.o   -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ef722
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef722.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc    -L/usr/local/lib  CMakeFiles/cmTC_ef722.dir/feature_tests.c.o  -o cmTC_ef722 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e4bed/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e4bed.dir/build.make CMakeFiles/cmTC_e4bed.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4bed.dir/feature_tests.c.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc   -std=c90 -o CMakeFiles/cmTC_e4bed.dir/feature_tests.c.o   -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e4bed
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4bed.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc    -L/usr/local/lib  CMakeFiles/cmTC_e4bed.dir/feature_tests.c.o  -o cmTC_e4bed 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_aa02c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_aa02c.dir/build.make CMakeFiles/cmTC_aa02c.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa02c.dir/testCXXCompiler.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++     -o CMakeFiles/cmTC_aa02c.dir/testCXXCompiler.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_aa02c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa02c.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++     -L/usr/local/lib  CMakeFiles/cmTC_aa02c.dir/testCXXCompiler.cxx.o  -o cmTC_aa02c 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_605d5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_605d5.dir/build.make CMakeFiles/cmTC_605d5.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_605d5.dir/CMakeCXXCompilerABI.cpp.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++     -o CMakeFiles/cmTC_605d5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_605d5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_605d5.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++     -L/usr/local/lib -v CMakeFiles/cmTC_605d5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_605d5 
+Reading specs from /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/specs
+COLLECT_GCC=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++
+COLLECT_LTO_WRAPPER=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /tmp/wyf/spack-stage/spack-stage-gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/spack-src/configure --prefix=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c,c++,fortran --disable-nls --disable-canonical-system-headers --with-system-zlib --enable-bootstrap --with-mpfr-include=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpfr-3.1.6-cp33qthd3iovcmg7oljt56i27bfaezas/include --with-mpfr-lib=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpfr-3.1.6-cp33qthd3iovcmg7oljt56i27bfaezas/lib --with-gmp-include=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gmp-6.2.1-jkhmbcioik6xi7gnqerfzopxgtxp5ljx/include --with-gmp-lib=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gmp-6.2.1-jkhmbcioik6xi7gnqerfzopxgtxp5ljx/lib --with-mpc-include=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpc-1.1.0-cpfajcxjwfsvou2a36wdv7ivkdzsqhgp/include --with-mpc-lib=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpc-1.1.0-cpfajcxjwfsvou2a36wdv7ivkdzsqhgp/lib --without-isl --with-stage1-ldflags='-Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib64 -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gmp-6.2.1-jkhmbcioik6xi7gnqerfzopxgtxp5ljx/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpc-1.1.0-cpfajcxjwfsvou2a36wdv7ivkdzsqhgp/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpfr-3.1.6-cp33qthd3iovcmg7oljt56i27bfaezas/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/zlib-1.2.12-65l5spnllm3b354wqtrlqb7ohin6dyqu/lib' --with-boot-ldflags='-Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib64 -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gmp-6.2.1-jkhmbcioik6xi7gnqerfzopxgtxp5ljx/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpc-1.1.0-cpfajcxjwfsvou2a36wdv7ivkdzsqhgp/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpfr-3.1.6-cp33qthd3iovcmg7oljt56i27bfaezas/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/zlib-1.2.12-65l5spnllm3b354wqtrlqb7ohin6dyqu/lib -static-libstdc++ -static-libgcc'
+Thread model: posix
+gcc version 9.4.0 (Spack GCC) 
+COMPILER_PATH=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-L/usr/local/lib' '-v' '-o' 'cmTC_605d5' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/collect2 -plugin /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvYL5Gd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_605d5 /lib/../lib64/crt1.o /lib/../lib64/crti.o /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o -L/usr/local/lib -rpath /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib64 -L/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0 -L/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../.. CMakeFiles/cmTC_605d5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-L/usr/local/lib' '-v' '-o' 'cmTC_605d5' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_605d5/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_605d5.dir/build.make CMakeFiles/cmTC_605d5.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_605d5.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++     -o CMakeFiles/cmTC_605d5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_605d5]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_605d5.dir/link.txt --verbose=1]
+  ignore line: [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++     -L/usr/local/lib -v CMakeFiles/cmTC_605d5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_605d5 ]
+  ignore line: [Reading specs from /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/specs]
+  ignore line: [COLLECT_GCC=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /tmp/wyf/spack-stage/spack-stage-gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/spack-src/configure --prefix=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c,c++,fortran --disable-nls --disable-canonical-system-headers --with-system-zlib --enable-bootstrap --with-mpfr-include=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpfr-3.1.6-cp33qthd3iovcmg7oljt56i27bfaezas/include --with-mpfr-lib=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpfr-3.1.6-cp33qthd3iovcmg7oljt56i27bfaezas/lib --with-gmp-include=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gmp-6.2.1-jkhmbcioik6xi7gnqerfzopxgtxp5ljx/include --with-gmp-lib=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gmp-6.2.1-jkhmbcioik6xi7gnqerfzopxgtxp5ljx/lib --with-mpc-include=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpc-1.1.0-cpfajcxjwfsvou2a36wdv7ivkdzsqhgp/include --with-mpc-lib=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpc-1.1.0-cpfajcxjwfsvou2a36wdv7ivkdzsqhgp/lib --without-isl --with-stage1-ldflags='-Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib64 -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gmp-6.2.1-jkhmbcioik6xi7gnqerfzopxgtxp5ljx/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpc-1.1.0-cpfajcxjwfsvou2a36wdv7ivkdzsqhgp/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpfr-3.1.6-cp33qthd3iovcmg7oljt56i27bfaezas/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/zlib-1.2.12-65l5spnllm3b354wqtrlqb7ohin6dyqu/lib' --with-boot-ldflags='-Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib64 -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gmp-6.2.1-jkhmbcioik6xi7gnqerfzopxgtxp5ljx/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpc-1.1.0-cpfajcxjwfsvou2a36wdv7ivkdzsqhgp/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/mpfr-3.1.6-cp33qthd3iovcmg7oljt56i27bfaezas/lib -Wl,-rpath,/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/zlib-1.2.12-65l5spnllm3b354wqtrlqb7ohin6dyqu/lib -static-libstdc++ -static-libgcc']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Spack GCC) ]
+  ignore line: [COMPILER_PATH=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-L/usr/local/lib' '-v' '-o' 'cmTC_605d5' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/collect2 -plugin /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvYL5Gd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_605d5 /lib/../lib64/crt1.o /lib/../lib64/crti.o /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o -L/usr/local/lib -rpath /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib64 -L/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0 -L/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../.. CMakeFiles/cmTC_605d5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccvYL5Gd.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_605d5] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+    arg [-rpath] ==> ignore
+    arg [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib64] ==> ignore
+    arg [-L/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0] ==> dir [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0]
+    arg [-L/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64] ==> dir [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../..] ==> dir [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../..]
+    arg [CMakeFiles/cmTC_605d5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0] ==> [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0]
+  collapse library dir [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64] ==> [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../..] ==> [/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/local/lib;/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib/gcc/x86_64-pc-linux-gnu/9.4.0;/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib64;/lib64;/usr/lib64;/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cff24/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cff24.dir/build.make CMakeFiles/cmTC_cff24.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cff24.dir/feature_tests.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -std=c++1z -o CMakeFiles/cmTC_cff24.dir/feature_tests.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_cff24
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cff24.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++     -L/usr/local/lib  CMakeFiles/cmTC_cff24.dir/feature_tests.cxx.o  -o cmTC_cff24 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cd2a5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cd2a5.dir/build.make CMakeFiles/cmTC_cd2a5.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cd2a5.dir/feature_tests.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -std=c++14 -o CMakeFiles/cmTC_cd2a5.dir/feature_tests.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_cd2a5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd2a5.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++     -L/usr/local/lib  CMakeFiles/cmTC_cd2a5.dir/feature_tests.cxx.o  -o cmTC_cd2a5 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d6466/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d6466.dir/build.make CMakeFiles/cmTC_d6466.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6466.dir/feature_tests.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -std=c++11 -o CMakeFiles/cmTC_d6466.dir/feature_tests.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d6466
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6466.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++     -L/usr/local/lib  CMakeFiles/cmTC_d6466.dir/feature_tests.cxx.o  -o cmTC_d6466 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_8ba49/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_8ba49.dir/build.make CMakeFiles/cmTC_8ba49.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8ba49.dir/feature_tests.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -std=c++98 -o CMakeFiles/cmTC_8ba49.dir/feature_tests.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8ba49
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ba49.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++     -L/usr/local/lib  CMakeFiles/cmTC_8ba49.dir/feature_tests.cxx.o  -o cmTC_8ba49 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b9173/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b9173.dir/build.make CMakeFiles/cmTC_b9173.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9173.dir/CheckIncludeFile.c.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc   -std=c11 -o CMakeFiles/cmTC_b9173.dir/CheckIncludeFile.c.o   -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b9173
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9173.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc    -L/usr/local/lib  CMakeFiles/cmTC_b9173.dir/CheckIncludeFile.c.o  -o cmTC_b9173 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function snappy_compress exists in the snappy passed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_045a3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_045a3.dir/build.make CMakeFiles/cmTC_045a3.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_045a3.dir/CheckFunctionExists.c.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc   -DCHECK_FUNCTION_EXISTS=snappy_compress   -std=c11 -o CMakeFiles/cmTC_045a3.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_045a3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_045a3.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc  -DCHECK_FUNCTION_EXISTS=snappy_compress  -L/usr/local/lib  CMakeFiles/cmTC_045a3.dir/CheckFunctionExists.c.o  -o cmTC_045a3 -lsnappy 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the fdatasync exist passed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_36bfa/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_36bfa.dir/build.make CMakeFiles/cmTC_36bfa.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_36bfa.dir/CheckSymbolExists.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -std=c++11 -o CMakeFiles/cmTC_36bfa.dir/CheckSymbolExists.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_36bfa
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36bfa.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++     -L/usr/local/lib  CMakeFiles/cmTC_36bfa.dir/CheckSymbolExists.cxx.o  -o cmTC_36bfa 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+File /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fdatasync
+  return ((int*)(&fdatasync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the O_CLOEXEC exist passed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ba547/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ba547.dir/build.make CMakeFiles/cmTC_ba547.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ba547.dir/CheckSymbolExists.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -std=c++11 -o CMakeFiles/cmTC_ba547.dir/CheckSymbolExists.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_ba547
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba547.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++     -L/usr/local/lib  CMakeFiles/cmTC_ba547.dir/CheckSymbolExists.cxx.o  -o cmTC_ba547 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+File /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef O_CLOEXEC
+  return ((int*)(&O_CLOEXEC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test LEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS succeeded with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7ea18/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7ea18.dir/build.make CMakeFiles/cmTC_7ea18.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7ea18.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti -DLEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS   -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/cmTC_7ea18.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7ea18
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ea18.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++   -fno-exceptions -fno-rtti -DLEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS  -L/usr/local/lib  CMakeFiles/cmTC_7ea18.dir/src.cxx.o  -o cmTC_7ea18 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX17_HAS_INCLUDE succeeded with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_91731/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_91731.dir/build.make CMakeFiles/cmTC_91731.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_91731.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti -DHAVE_CXX17_HAS_INCLUDE   -std=c++11 -o CMakeFiles/cmTC_91731.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_91731
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91731.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++   -fno-exceptions -fno-rtti -DHAVE_CXX17_HAS_INCLUDE  -L/usr/local/lib  CMakeFiles/cmTC_91731.dir/src.cxx.o  -o cmTC_91731 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#if defined(__has_include) &&  __has_include(<string>)
+#include <string>
+#endif
+int main() { std::string str; return 0; }
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_dc812/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_dc812.dir/build.make CMakeFiles/cmTC_dc812.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc812.dir/CheckIncludeFile.c.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc   -Wstrict-prototypes    -std=c11 -o CMakeFiles/cmTC_dc812.dir/CheckIncludeFile.c.o   -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dc812
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc812.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc  -Wstrict-prototypes   -L/usr/local/lib  CMakeFiles/cmTC_dc812.dir/CheckIncludeFile.c.o  -o cmTC_dc812 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_8ff91/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_8ff91.dir/build.make CMakeFiles/cmTC_8ff91.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ff91.dir/CheckFunctionExists.c.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create   -std=c11 -o CMakeFiles/cmTC_8ff91.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8ff91
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ff91.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/gcc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create  -L/usr/local/lib  CMakeFiles/cmTC_8ff91.dir/CheckFunctionExists.c.o  -o cmTC_8ff91 -lpthread 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_STD_CXX11 succeeded with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c94a2/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c94a2.dir/build.make CMakeFiles/cmTC_c94a2.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c94a2.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11   -std=c++11 -o CMakeFiles/cmTC_c94a2.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c94a2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c94a2.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++   -fno-exceptions -fno-rtti -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11  -L/usr/local/lib  CMakeFiles/cmTC_c94a2.dir/src.cxx.o  -o cmTC_c94a2 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f3ad1/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f3ad1.dir/build.make CMakeFiles/cmTC_f3ad1.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f3ad1.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti  -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall   -Wall -o CMakeFiles/cmTC_f3ad1.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f3ad1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3ad1.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++   -fno-exceptions -fno-rtti  -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall  -L/usr/local/lib  CMakeFiles/cmTC_f3ad1.dir/src.cxx.o  -o cmTC_f3ad1 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_27cf8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_27cf8.dir/build.make CMakeFiles/cmTC_27cf8.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_27cf8.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti  -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra   -Wextra -o CMakeFiles/cmTC_27cf8.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_27cf8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27cf8.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++   -fno-exceptions -fno-rtti  -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra  -L/usr/local/lib  CMakeFiles/cmTC_27cf8.dir/src.cxx.o  -o cmTC_27cf8 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5cadb/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5cadb.dir/build.make CMakeFiles/cmTC_5cadb.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5cadb.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow   -Wshadow -o CMakeFiles/cmTC_5cadb.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5cadb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cadb.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow  -L/usr/local/lib  CMakeFiles/cmTC_5cadb.dir/src.cxx.o  -o cmTC_5cadb 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WERROR succeeded with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_730e0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_730e0.dir/build.make CMakeFiles/cmTC_730e0.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_730e0.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WERROR  -Werror   -Werror -o CMakeFiles/cmTC_730e0.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_730e0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_730e0.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WERROR  -Werror  -L/usr/local/lib  CMakeFiles/cmTC_730e0.dir/src.cxx.o  -o cmTC_730e0 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE succeeded with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cd6e8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cd6e8.dir/build.make CMakeFiles/cmTC_cd6e8.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cd6e8.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wsuggest-override   -Wsuggest-override -o CMakeFiles/cmTC_cd6e8.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cd6e8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd6e8.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wsuggest-override  -L/usr/local/lib  CMakeFiles/cmTC_cd6e8.dir/src.cxx.o  -o cmTC_cd6e8 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0797f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0797f.dir/build.make CMakeFiles/cmTC_0797f.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0797f.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing   -fstrict-aliasing -o CMakeFiles/cmTC_0797f.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0797f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0797f.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing  -L/usr/local/lib  CMakeFiles/cmTC_0797f.dir/src.cxx.o  -o cmTC_0797f 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS succeeded with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_2267f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2267f.dir/build.make CMakeFiles/cmTC_2267f.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2267f.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wno-deprecated-declarations   -Wno-deprecated-declarations -o CMakeFiles/cmTC_2267f.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2267f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2267f.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wno-deprecated-declarations  -L/usr/local/lib  CMakeFiles/cmTC_2267f.dir/src.cxx.o  -o cmTC_2267f 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED succeeded with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_78ecb/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_78ecb.dir/build.make CMakeFiles/cmTC_78ecb.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_78ecb.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wno-deprecated   -Wno-deprecated -o CMakeFiles/cmTC_78ecb.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_78ecb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78ecb.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wno-deprecated  -L/usr/local/lib  CMakeFiles/cmTC_78ecb.dir/src.cxx.o  -o cmTC_78ecb 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FNO_EXCEPTIONS succeeded with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_965a5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_965a5.dir/build.make CMakeFiles/cmTC_965a5.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_965a5.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions   -fno-exceptions -o CMakeFiles/cmTC_965a5.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_965a5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_965a5.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions  -L/usr/local/lib  CMakeFiles/cmTC_965a5.dir/src.cxx.o  -o cmTC_965a5 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f32a6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f32a6.dir/build.make CMakeFiles/cmTC_f32a6.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f32a6.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing   -Wstrict-aliasing -o CMakeFiles/cmTC_f32a6.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f32a6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f32a6.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing  -L/usr/local/lib  CMakeFiles/cmTC_f32a6.dir/src.cxx.o  -o cmTC_f32a6 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5f834/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5f834.dir/build.make CMakeFiles/cmTC_5f834.dir/build
+gmake[1]: Entering directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5f834.dir/src.cxx.o
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage   --coverage -o CMakeFiles/cmTC_5f834.dir/src.cxx.o -c /home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5f834
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f834.dir/link.txt --verbose=1
+/home/wyf/share/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-9.4.0-nzz436calcucsncrl5qjdd3u2o25g27o/bin/g++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage  -L/usr/local/lib  CMakeFiles/cmTC_5f834.dir/src.cxx.o  -o cmTC_5f834 
+gmake[1]: Leaving directory `/home/gxr/KVseparation/leveldb-edit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
